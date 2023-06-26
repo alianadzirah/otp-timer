@@ -1,0 +1,48 @@
+.timer {
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.timer_container {
+    text-align: center;
+    background-color: #fff;
+    width: 30vw;
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0, 0, 0,0.4);
+}
+
+.start, .reset {
+    color: #fff;
+    font-size: 18px;
+    background-color: skyblue;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.resend {
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.stop {
+    margin-left: 15px; 
+}
